@@ -19,7 +19,7 @@ export default function Hero() {
   }, []);
 
   return (
-    <div className="min-h-screen from-[#396bdf] to-[#1e4db7] text-white bg-[url('https://res.cloudinary.com/dz5ptyifl/image/upload/v1723826237/back_xijdz6.png')] bg-cover bg-center">
+    <div className="h-[40rem] from-[#396bdf] to-[#1e4db7] text-white bg-[url('https://res.cloudinary.com/dz5ptyifl/image/upload/v1723826237/back_xijdz6.png')] bg-cover bg-center">
       <header className="flex items-center justify-between p-4 md:px-8 bg-opacity-70 backdrop-blur-md rounded-b-xl fade-in h-15">
         <div className="flex items-center space-x-2 fade-in">
           <LogInIcon className="w-8 h-8 text-yellow-400 transition-transform duration-300 hover:scale-110" />
@@ -114,6 +114,7 @@ export default function Hero() {
             style={{ aspectRatio: "1000/800", objectFit: "cover" }}
           />
         </div>
+        
       </main>
     </div>
   );
