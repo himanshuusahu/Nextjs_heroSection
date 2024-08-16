@@ -1,4 +1,4 @@
-import Page from "./home/page";
+import Page from "./home/Page";
 
 
 export default function Home() {
