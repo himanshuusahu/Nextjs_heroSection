@@ -108,7 +108,7 @@ export default function Hero() {
           <img
             src="https://res.cloudinary.com/dz5ptyifl/image/upload/v1723826350/sample_1_fk27o3.png"
             alt="Doctors"
-            className="w-full max-w-md mt-10 rounded-lg shadow-lg transform transition-transform duration-300 hover:scale-105"
+            className="w-full max-w-md mt-10 max-md:hidden rounded-lg shadow-lg transform transition-transform duration-300 hover:scale-105"
             width="400"
             height="400"
             style={{ aspectRatio: "1000/800", objectFit: "cover" }}
